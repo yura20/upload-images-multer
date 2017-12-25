@@ -5,7 +5,7 @@ app.config(['$locationProvider', function ($locationProvider) {
     $locationProvider.hashPrefix('');
     $locationProvider.html5Mode(true);
 }]);
-const link = 'http://multer-multer.1d35.starter-us-east-1.openshiftapps.com/';
+const link = 'http://multer-multer.1d35.starter-us-east-1.openshiftapps.com';
 //Створюєм адреси
 app.config(function ($routeProvider) {
     $routeProvider
